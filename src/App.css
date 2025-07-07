@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.login-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+}
+.menu-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu-list li {
+  padding: 10px;
+}
+.search-area {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.search-area input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product-card img {
+  width: 200px;
+  height: 300px;
+}
+
+.product-container {
+  margin-top: 10px;
+}
+
+.prduct-img {
+  display: flex;
+  justify-content: flex-end;
+}
